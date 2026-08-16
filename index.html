@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodeLabs - Project 2: The Server Commander</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0f172a; color: #f8fafc; margin: 0; padding: 40px 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: #1e293b; padding: 30px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); border: 1px solid #334155; }
+        h1 { color: #38bdf8; font-size: 2rem; border-bottom: 2px solid #334155; padding-bottom: 10px; margin-top: 0; }
+        h2 { color: #a855f7; font-size: 1.3rem; margin-top: 25px; }
+        p { line-height: 1.6; color: #cbd5e1; }
+        .badge { background: #0284c7; color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; display: inline-block; margin-bottom: 20px; }
+        ul { list-style-type: none; padding: 0; }
+        li { background: #0f172a; margin: 10px 0; padding: 12px 16px; border-radius: 8px; border-left: 4px solid #38bdf8; font-family: monospace; }
+        .footer { text-align: center; margin-top: 30px; font-size: 0.9rem; color: #64748b; border-top: 1px solid #334155; padding-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">DecodeLabs Project 2 Completed</span>
+        <h1>Welcome to DecodeLabs</h1>
+        <p><strong>Project Title:</strong> The Server Commander (SysAdmin & Infrastructure Provisioning)</p>
+        
+        <h2>Overview</h2>
+        <p>This server was manually provisioned and configured as part of the DecodeLabs Cloud Computing program. Instead of using serverless managed hosting, this project demonstrates full system control, OS management, network firewall configuration, and web server installation.</p>
+        
+        <h2>Execution Steps Completed</h2>
+        <ul>
+            <li>✔ Provisioned an Ubuntu 24.04 LTS VM on Microsoft Azure (uaenorth region)</li>
+            <li>✔ Configured Network Security Group (NSG) to allow inbound SSH (Port 22) & HTTP (Port 80)</li>
+            <li>✔ Authenticated securely via SSH using a private key (.pem)</li>
+            <li>✔ Updated Linux system repositories via APT package manager</li>
+            <li>✔ Installed and initialized Nginx web server on port 80</li>
+            <li>✔ Customized system web root directory (/var/www/html/index.html)</li>
+        </ul>
+
+        <div class="footer">
+            Deployed by Hamza | Powered by DecodeLabs & Microsoft Azure
+        </div>
+    </div>
+</body>
+</html>
